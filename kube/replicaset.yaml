@@ -5,7 +5,7 @@ metadata:
   labels:
     app: echo
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: echo
@@ -26,4 +26,3 @@ spec:
           image: gihyodocker/echo:latest
           ports:
             - containerPort: 8080
-              
